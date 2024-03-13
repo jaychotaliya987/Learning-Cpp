@@ -75,7 +75,7 @@
             std::cout<<" wood floor ";
             break;
         default:
-            std::cout<<" Ivalid task ";
+            std::cout<<" Invalid task ";
     }
  }
  

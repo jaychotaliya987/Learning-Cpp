@@ -1,0 +1,1 @@
+// ! double weight {}; can't include here as well, as it is already defined in the OneDefRule.cpp

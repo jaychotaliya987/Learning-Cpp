@@ -1,5 +1,5 @@
 /*Goal: create a function that searches an array for 
-**a given value. 
+a given value. 
 */
 
 #include<iostream>

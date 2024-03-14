@@ -19,6 +19,4 @@ int main(){
     max_str(str1, str2, output);
     std::cout << "Max string is: " << output << std::endl;
     return 0;
-
-        
 }

@@ -12,11 +12,13 @@ int main()
     int c{42};
 
     auto func2 = [c] () {std::cout << "The value of c inside the lambda func : " << c << std::endl;}; // ! capture c by value it is copied from outside
+    auto func_ref = [&c] () {std::cout << "The value of c inside the lambda func (with reference) : " << c << std::endl;}; // ! capture by ref. now the change will be reflected outside the lambda function
 
     for (size_t i{} ; i < 5 ; i++) // ! c inside he lambda func will not change because it is copied and not the original variable
     {
         std::cout << "The value of c outside the lambda func : " << c << std::endl;
         func2();
+        func_ref();
         c++;
     }
 

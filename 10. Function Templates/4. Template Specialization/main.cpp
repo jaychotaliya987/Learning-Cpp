@@ -8,10 +8,11 @@ T maximum(T a, T b)
     return (a > b) ? a : b;
 }
 // ! This is function template specialization. We are making a special case for the const char* type and when the compile encounter the const char* type it will use this function instead of the general function template.
+
 template <>
 const char* maximum<const char*>(const char* a, const char* b)
 {
-    return (std::strcmp(a,b)) ? a : b;
+    return (std::strcmp(a,b) < 0) ? a : b; // ! strcmp is function in standard library that compares strings in lexicographical order and returns 0 if they are equal.
 }
 int main(){
     int a{10}, b{20};

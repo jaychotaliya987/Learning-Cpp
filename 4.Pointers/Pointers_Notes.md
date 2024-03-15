@@ -277,7 +277,6 @@ int main() {
 
 **Declaring a Function Pointer**
 
-
 ```cpp
 // Function pointer declaration with return type and arguments
 int (\*function_pointer_name)(int, int);
@@ -288,10 +287,10 @@ int (\*function_pointer_name)(int, int);
 - `(int, int)` : Argument types of the function the pointer points to.
 
 **Initializing a Function Pointer**
+
 ```cpp
 function_pointer_name = &function_name;
 ```
-
 
 - `&` : Address-of operator.
 - `function_name` : Name of the function whose address is being assigned.
@@ -302,7 +301,6 @@ function_pointer_name = &function_name;
 (\*function_pointer_name)(arguments);
 ```
 
-
 - `*` : Dereference operator.
 - `function_pointer_name` : Function pointer variable.
 - `(arguments)` : Arguments passed to the function.
@@ -312,7 +310,7 @@ function_pointer_name = &function_name;
 ```cpp
 #include <stdio.h>
 
-int add(int a, int b) 
+int add(int a, int b)
 {
     return a + b;
 }
@@ -368,11 +366,12 @@ bool compareAscending(int a, int b) {
 This function takes the data vector and a comparison function pointer as arguments. It uses the standard library `std::sort` function with the provided comparison function.
 
 ```cpp
-void sortByPointer(std::vector<int>& data, bool (*comparison)(int, int)) 
+void sortByPointer(std::vector<int>& data, bool (*comparison)(int, int))
 {
   std::sort(data.begin(), data.end(), comparison);
 }
 ```
+
 **4. Usage**
 
 ```cpp
@@ -388,6 +387,6 @@ sortByPointer(data, compareDescending);
 
 **Explanation**
 
- -   The sortByPointer function takes the data vector and a comparison function pointer (comparison).
- -   Inside the function, `std::sort` is used to sort the data.
- -   The provided comparison function (compareAscending or compareDescending) is used to determine the order during sorting.
+- The sortByPointer function takes the data vector and a comparison function pointer (comparison).
+- Inside the function, `std::sort` is used to sort the data.
+- The provided comparison function (compareAscending or compareDescending) is used to determine the order during sorting.

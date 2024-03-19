@@ -22,9 +22,9 @@ int main()
     dog1.setLicenseNumber(1234);
     dog2.setLicenseNumber(5678);
 
-    cout << "Where is the name Trixie?";
+    cout << "Where is the name Trixie?" << endl;
     dog1.printInfo();
-    cout << "Where is the name Kali?";
+    cout << "Where is the name Kali?" << endl;
     dog2.printInfo();
 
     return 0;

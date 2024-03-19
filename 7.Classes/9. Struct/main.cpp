@@ -14,8 +14,10 @@ struct Person {
     double weight;
 };
 
-class Student {
+//* if you have all the member variable public then use struct. Do not use methods in struct. I you take this into account your code will be
+//* more readable by other C++ developers.
 
+class Student {
     std::string name;
     int age;
     double weight;
@@ -32,6 +34,6 @@ int main () {
     // student.name = "John"; // Error: 'name' is a private member of 'Student'
     // student.age = 25; // Error: 'age' is a private member of 'Student'
     // student.weight = 75.5; // Error: 'weight' is a private member of 'Student'
-
+    
     return 0;
 }

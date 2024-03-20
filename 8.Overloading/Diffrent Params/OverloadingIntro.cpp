@@ -1,8 +1,10 @@
 #include <iostream>
 
 /*
-* When you have a functions returning different data type but doing the same thing essentially, You can write multiple functions with the same name but different parameters. 
-* and the compiler will decide which function to call based on the parameters passed to it. //! This is called function overloading.
+* When you have a functions returning different data type but doing the same thing essentially, 
+* You can write multiple functions with the same name but different parameters. 
+* and the compiler will decide which function to call based on the parameters passed to it. 
+! This is called function overloading.
 */
 
 int max(int a, int b){

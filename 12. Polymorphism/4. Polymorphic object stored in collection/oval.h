@@ -9,13 +9,13 @@ public:
                 std::string_view description);
     ~Oval();
     
-    void draw() const{
+    virtual void draw() const{
         std::cout << "Oval::draw() called. Drawing " << m_description <<
             " with m_x_radius : " << m_x_radius << " and m_y_radius : " << m_y_radius 
                     << std::endl;
     }
 
-protected: //! Protected members hance they will be accessible from derived classes.
+protected:
     double get_x_rad() const{
         return m_x_radius;
     }

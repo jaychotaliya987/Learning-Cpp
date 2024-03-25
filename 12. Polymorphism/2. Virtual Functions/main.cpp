@@ -6,7 +6,13 @@
 #include "oval.cpp"
 #include "circle.cpp"
 
-void draw_shape (Shape * s){
+
+/*
+* If we use virtual functions in the base class then we can call the methods over the derived classes as well and the compiler will decide which methods to use at runtime.
+* at compile time the compiler does not need to know the exact type of the object, it just needs to know that the object is a Shape. 
+*/
+
+void draw_shape (Shape * s){ //* now we can make the draw function that will be called based on the object class with ref or pointer to the object.
     s->draw();
 }
 
@@ -25,9 +31,9 @@ int main(){
     Circle circle1(3.3,"Circle1");
     //circle1.draw();
 
-    //Base pointers
+    //! Base pointers
     Shape * shape_ptr = &shape1;
-    //shape_ptr->draw();
+    //shape_ptr->draw(); //! The draw class is now virtual so it will use the appropriate draw function according to the type of the object.
 
     shape_ptr = &oval1;
     //shape_ptr->draw(); // Draw an oval
@@ -36,12 +42,12 @@ int main(){
     //shape_ptr->draw();
 
 
-    //Base references
+    //! Base references
     Shape& shape_ref = oval1;
-    shape_ref.draw(); // ! Oval version of the draw function
+    shape_ref.draw(); //! Oval version of the draw function
 
 
-    //Drawing shapes
+    //! Drawing shapes
     draw_shape(&circle1);
     draw_shape(&oval1);
 
@@ -50,7 +56,7 @@ int main(){
 
 
 
-    //Shapes stored in collections
+    //! Shapes stored in collections
     Shape * shapes[] = {&shape1,&oval1,&circle1};
     for (Shape * shape : shapes){
         shape->draw();

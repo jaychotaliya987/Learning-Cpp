@@ -10,7 +10,7 @@ public:
     Person() ;
     Person(std::string_view fullname,int age,
     std::string_view address);
-    Person(const Person& source); //! This is the copy constructor.
+    Person(const Person& source); //! This is the copy constructor. >> They are not inherited.
     ~Person();
     
     //Getters

@@ -1,0 +1,33 @@
+#include <iostream>
+#include "person.h"
+#include "engineer.h"
+#include "civilengineer.h"
+#include "person.cpp"
+#include "engineer.cpp"
+#include "civilengineer.cpp"
+
+/*
+* We can use custom constructor list to initialize the base class parameters. Particularly useful. We can initialize private member variable in
+* base class if we use the custom constructor list inside the initializer list.
+*/
+
+int main(){
+    
+	Person person1("John Snow",27,"Winterfell Cold 33St#75");
+	std::cout << "person1 : " << person1 << std::endl;
+    
+
+   
+	std::cout << "---------------------"<< std::endl;
+	Engineer eng1("Daniel Gray",41,"Green Sky Oh Blue 33St#75",12);
+	std::cout << "eng1 : " << eng1 << std::endl;	
+    
+
+	std::cout << "---------------------" << std::endl;
+	CivilEngineer civil_eng1("John Travolta",51,"Tiny Dog 42St#89",31,"Road Strength");
+	//* The member list is (fullname,age,address,contract_count,specialty)
+	std::cout << "civil_eng1 : " << civil_eng1 << std::endl;
+	//* also the constructor order is from base class to derived class.
+
+    return 0;
+}

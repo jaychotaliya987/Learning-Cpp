@@ -12,11 +12,11 @@
 * at compile time the compiler does not need to know the exact type of the object, it just needs to know that the object is a Shape. 
 */
 
-void draw_shape (Shape * s){ //* now we can make the draw function that will be called based on the object class with ref or pointer to the object.
+void draw_shape (Shape *s){ //* now we can make the draw function that will be called based on the object class with ref or pointer to the object.
     s->draw();
 }
 
-void draw_shape_v1 (Shape & s){
+void draw_shape_v1 (Shape &s){
     s.draw();
 }
 
@@ -57,12 +57,10 @@ int main(){
 
 
     //! Shapes stored in collections
-    Shape * shapes[] = {&shape1,&oval1,&circle1};
-    for (Shape * shape : shapes){
+    Shape *shapes[] = {&shape1,&oval1,&circle1};
+    for (Shape *shape : shapes){
         shape->draw();
     }
 
-    
-   
     return 0;
 }

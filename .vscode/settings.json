@@ -75,5 +75,6 @@
     "cSpell.words": [
         "devayat",
         "Peticularlly"
-    ]
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/g++-13"
 }

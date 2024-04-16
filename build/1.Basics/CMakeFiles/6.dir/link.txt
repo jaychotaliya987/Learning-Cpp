@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/6.dir/6.Constans.cpp.o -o 6 

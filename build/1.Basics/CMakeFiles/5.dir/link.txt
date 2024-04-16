@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/5.dir/5.variables.cpp.o -o 5 

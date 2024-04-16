@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/1.dir/1._hello.cpp.o -o 1 

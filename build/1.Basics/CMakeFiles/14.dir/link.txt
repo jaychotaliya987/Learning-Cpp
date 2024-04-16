@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/14.dir/14.sstream.cpp.o -o 14 

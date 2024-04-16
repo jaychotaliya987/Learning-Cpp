@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/13.dir/13.getline.cpp.o -o 13 

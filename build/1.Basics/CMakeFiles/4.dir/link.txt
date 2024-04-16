@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/4.dir/4.string.cpp.o -o 4 

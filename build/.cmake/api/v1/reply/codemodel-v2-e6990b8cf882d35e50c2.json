@@ -1,0 +1,245 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1.Basics",
+					"jsonFile" : "directory-1.Basics-Debug-182ebe10b9747963add4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "1.Basics",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						17
+					]
+				},
+				{
+					"build" : "9. Lembda Function",
+					"jsonFile" : "directory-9. Lembda Function-Debug-fb8abaeadea5da5ad983.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "9. Lembda Function",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Learning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "1::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-1-Debug-cfe141dd1fe62af60bb1.json",
+					"name" : "1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "10::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-10-Debug-696443a283308114fd05.json",
+					"name" : "10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "11::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-11-Debug-b7342d6ef4c6af5e3cb8.json",
+					"name" : "11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "12::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-12-Debug-c48537c673f5318fc261.json",
+					"name" : "12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "13::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-13-Debug-3f201b3433abca97d94f.json",
+					"name" : "13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "14::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-14-Debug-53500d752556d8dce21a.json",
+					"name" : "14",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "2::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-2-Debug-ab085eeb4adf3b0bb148.json",
+					"name" : "2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "3::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-3-Debug-0ffe23030e5ce83b06d1.json",
+					"name" : "3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "4::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-4-Debug-9b3ae4858a87439cc44f.json",
+					"name" : "4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "5::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-5-Debug-16269e10212978480899.json",
+					"name" : "5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "6::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-6-Debug-07aae482986dbdc46a48.json",
+					"name" : "6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "7::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-7-Debug-858cc2f0c45cb139913d.json",
+					"name" : "7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "8::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-8-Debug-b7c17776482d7eb1404e.json",
+					"name" : "8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "9::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-9-Debug-4c038b4a3b5f0a21ebd6.json",
+					"name" : "9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Captureall::@0fd6ca88d155b92d3bf8",
+					"jsonFile" : "target-Captureall-Debug-8e2a6497e3207d1a2a01.json",
+					"name" : "Captureall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Intro::@0fd6ca88d155b92d3bf8",
+					"jsonFile" : "target-Intro-Debug-ce50f2dee141f3b7623c.json",
+					"name" : "Intro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "capturelist::@0fd6ca88d155b92d3bf8",
+					"jsonFile" : "target-capturelist-Debug-bffc1c3863d147f33fd6.json",
+					"name" : "capturelist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "debug::@82f9f4d69dd2e64ea46f",
+					"jsonFile" : "target-debug-Debug-05caa0a8508732428c0d.json",
+					"name" : "debug",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/raged_pi/C++/Learning Cpp/build",
+		"source" : "/home/raged_pi/C++/Learning Cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

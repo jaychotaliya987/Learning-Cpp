@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/debug.dir/debug.cpp.o -o debug 

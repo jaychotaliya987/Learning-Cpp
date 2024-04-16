@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/3.dir/3.sizeof.cpp.o -o 3 

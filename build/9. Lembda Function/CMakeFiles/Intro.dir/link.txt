@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/Intro.dir/Intro.cpp.o -o Intro 

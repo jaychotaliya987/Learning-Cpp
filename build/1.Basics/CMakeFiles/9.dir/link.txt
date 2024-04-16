@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/9.dir/9._Formate_coloumn.cpp.o -o 9 

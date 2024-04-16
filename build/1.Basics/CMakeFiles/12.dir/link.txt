@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/12.dir/12._User_input.cpp.o -o 12 

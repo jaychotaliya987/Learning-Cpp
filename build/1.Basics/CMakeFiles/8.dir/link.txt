@@ -1,0 +1,1 @@
+/usr/bin/g++-12 -g CMakeFiles/8.dir/8._output_formate.cpp.o -o 8 
